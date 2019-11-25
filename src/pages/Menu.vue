@@ -211,8 +211,6 @@ export default {
     food: Food,
     item: AtHome
   },
-  methods: {
-      
-  }
+  methods: {}
 };
 </script>
