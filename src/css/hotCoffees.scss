@@ -1,0 +1,30 @@
+ul.coffeesContainer {
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #d5d1c8;
+  padding-top: 2rem;
+
+  li.listItem {
+    width: 50%;
+    height: auto;
+    padding: 1rem 1.25rem 1rem;
+    margin-bottom: 1rem;
+  }
+  a {
+    width: 100%;
+    height: 100%;
+  }
+  img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 9.25rem;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+}
+div.breadcrumbs {
+  a,
+  div.q-breadcrumbs__seperator {
+    color: $color-burger !important;
+  }
+}
