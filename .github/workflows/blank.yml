@@ -9,8 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Run a one-line script
-        run: npm install -g npx
+        run: npm install quasar
       - name: Run a multi-line script
         run: |
-          npx quasar built -m pwa,
+          quasar build -m pwa,
           echo test, and deploy your project.
