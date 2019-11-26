@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Run a one-line script
-        run: npm install npx
+        run: npm install -g npx
       - name: Run a multi-line script
         run: |
           npx quasar built -m pwa,
