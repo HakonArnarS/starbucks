@@ -21,6 +21,6 @@ jobs:
           yarn add quasar
           yarn run build --if-present
           yarn test
-          cp -r ./dist/pwa ./docs
+          cp -r dist/pwa docs
         env:
           CI: true
