@@ -96,13 +96,14 @@ module.exports = function(ctx) {
         clientsClaim: true
       }, // only for NON InjectManifest
       manifest: {
-        // name: 'Starbucks2',
-        // short_name: 'Starbucks2',
-        // description: 'Testing Quasar with Vuejs and remaking the Starbucks pwa',
+        name: "Starbucks2",
+        short_name: "Starbucks2",
+        description: "Testing Quasar with Vuejs and remaking the Starbucks pwa",
+        start_url: "/",
         display: "standalone",
         orientation: "portrait",
-        background_color: "#ffffff",
-        theme_color: "#027be3",
+        background_color: "#00a862",
+        theme_color: "#008248",
         icons: [
           {
             src: "statics/icons/starbucks-128x128.png",
