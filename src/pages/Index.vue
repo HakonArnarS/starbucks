@@ -179,7 +179,7 @@
 export default {
   data() {
     return {
-      message: "Good night. ☀️",
+      message: "Good morning. ☀️",
       carousel: [
         {
           id: 0,
