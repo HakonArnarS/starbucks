@@ -23,6 +23,8 @@ jobs:
       - name: publish to github pages
         run: |
           npm install gh-pages -g
+          git config --global user.email "robot@example.com"
+          git config --global user.name "Robo Cop"
           git remote add pages https://HakonArnarS:${{ secrets.ACCESS_TOKEN }}@github.com/HakonArnarS/starbucks.git
           gh-pages -d dist/ssr -b gh-pages
         env:
