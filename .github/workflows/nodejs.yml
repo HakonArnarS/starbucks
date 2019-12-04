@@ -20,13 +20,13 @@ jobs:
           yarn add quasar
           yarn run build --if-present
           ls -l dist
-          # yarn test
-        # - name: publish to github pages
-        #   run: |
-        #     npm install -g gh-pages
-        #     git config --global user.email "robot@example.com"
-        #     git config --global user.name "Robo Cop"
-        #     git remote set-url origin https://HakonArnarS:${{ secrets.ACCESS_TOKEN }}@github.com/HakonArnarS/starbucks.git
-        #     gh-pages -d dist/ssr -b gh-pages
+          yarn test
+      - name: publish to github pages
+        run: |
+          npm install -g gh-pages
+          git config --global user.email "robot@example.com"
+          git config --global user.name "Robo Cop"
+          git remote set-url origin https://HakonArnarS:${{ secrets.ACCESS_TOKEN }}@github.com/HakonArnarS/starbucks.git
+          gh-pages -d dist/pwa -b gh-pages
         env:
           CI: true
