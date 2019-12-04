@@ -24,7 +24,7 @@ jobs:
           touch dist/index.html
       - name: publish to github pages
         run: |
-          yarn global add gh-pages
+          npm install -g gh-pages
           git config --global user.email "robot@example.com"
           git config --global user.name "Robo Cop"
           git remote set-url origin https://HakonArnarS:${{ secrets.ACCESS_TOKEN }}@github.com/HakonArnarS/starbucks.git
