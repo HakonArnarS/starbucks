@@ -1,4 +1,4 @@
-importScripts("/starbucks/precache-manifest.31f6ea47e774af15b092fa55404c6819.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("https://hakonarnars.github.io/starbucks/precache-manifest.5af3485dc8ac5d2e94a75cb171ebbabc.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 /*
  * This file (which will be your service worker)
