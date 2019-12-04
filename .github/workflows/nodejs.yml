@@ -19,8 +19,11 @@ jobs:
         run: |
           yarn add quasar
           yarn run build --if-present
-          git remote add pages https://HakonArnarS:${{ secrets.ACCESS_TOKEN }}@github.com/HakonArnarS/starbucks.git
-          git subtree push --prefix dist/ssr pages gh-pages
           yarn test
+      - name: publish to github pages
+        run: |
+          npm install gh-pages -g
+          git remote add pages https://HakonArnarS:${{ secrets.ACCESS_TOKEN }}@github.com/HakonArnarS/starbucks.git
+          gh-pages -d dist/ssr -b gh-pages
         env:
           CI: true
