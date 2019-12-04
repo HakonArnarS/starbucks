@@ -19,8 +19,8 @@ jobs:
         run: |
           yarn add quasar
           yarn run build --if-present
-          git remote add origin https://HakonArnarS:${{ secrets.ACCESS_TOKEN }}@github.com/HakonArnarS/starbucks.git
-          git subtree push --prefix dist origin gh-pages
+          git remote add pages https://HakonArnarS:${{ secrets.ACCESS_TOKEN }}@github.com/HakonArnarS/starbucks.git
+          git subtree push --prefix dist/ssr pages gh-pages
           yarn test
         env:
           CI: true
