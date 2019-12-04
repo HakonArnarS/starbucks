@@ -17,9 +17,9 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: yarn install, build, and test
         run: |
-          pwd
-          # yarn add quasar
-          # yarn run build --if-present
+          yarn add quasar
+          yarn run build --if-present
+          ls -l dist
           # yarn test
         # - name: publish to github pages
         #   run: |
