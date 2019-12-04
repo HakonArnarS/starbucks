@@ -28,6 +28,8 @@ jobs:
           git config --global user.email "robot@example.com"
           git config --global user.name "Robo Cop"
           git remote set-url origin https://HakonArnarS:${{ secrets.ACCESS_TOKEN }}@github.com/HakonArnarS/starbucks.git
+          pwd
+          ls -l
           gh-pages -d dist/ssr -b gh-pages
         env:
           CI: true
