@@ -58,7 +58,7 @@ module.exports = function(ctx) {
       // preloadChunks: false,
       // extractCSS: false,
 
-      publicPath: "starbucks",
+      publicPath: ctx.dev ? "/" : "https://hakonarnars.github.io/starbucks/",
 
       // https://quasar.dev/quasar-cli/cli-documentation/handling-webpack
       extendWebpack(cfg) {
