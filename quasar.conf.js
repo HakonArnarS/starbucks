@@ -58,6 +58,8 @@ module.exports = function(ctx) {
       // preloadChunks: false,
       // extractCSS: false,
 
+      publicPath: "starbucks",
+
       // https://quasar.dev/quasar-cli/cli-documentation/handling-webpack
       extendWebpack(cfg) {
         cfg.module.rules.push({
@@ -85,16 +87,16 @@ module.exports = function(ctx) {
 
     // https://quasar.dev/quasar-cli/developing-ssr/configuring-ssr
     ssr: {
-      pwa: false
+      pwa: true
     },
 
     // https://quasar.dev/quasar-cli/developing-pwa/configuring-pwa
     pwa: {
-      // workboxPluginMode: 'InjectManifest',
-      workboxOptions: {
-        skipWaiting: true,
-        clientsClaim: true
-      }, // only for NON InjectManifest
+      workboxPluginMode: "InjectManifest",
+      // workboxOptions: {
+      //   skipWaiting: true,
+      //   clientsClaim: true
+      // }, // only for NON InjectManifest
       manifest: {
         name: "Starbucks2",
         short_name: "Starbucks2",

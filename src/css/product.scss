@@ -1,0 +1,93 @@
+div.contentContainer {
+  div.infoGreeting {
+    display: none;
+  }
+}
+div.customizations,
+div.nutriInfo {
+  width: 100%;
+  height: auto;
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+  h4 {
+    font-size: 1.75rem;
+    line-height: 1.5rem;
+    margin: 2rem 0 1rem;
+  }
+  div.smInfoSection {
+    display: flex;
+  }
+}
+div.nutriInfo {
+  padding: 0 1rem 2.5rem;
+}
+div.customizations {
+  h4 {
+    display: none;
+  }
+}
+
+@media (min-width: $changeNav) {
+  div.contentContainer {
+    div.infoGreeting {
+      display: flex;
+    }
+  }
+  div.customizations {
+    div.smInfoSection {
+      display: none;
+    }
+  }
+
+  div.productContainer {
+    padding: 0 2rem 1.5rem;
+    flex-direction: row !important;
+  }
+
+  div.customizations,
+  div.nutriInfo {
+    padding: 7rem 1rem 5.5rem;
+    width: 50%;
+    img {
+      border-radius: 50%;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      padding: 1rem;
+    }
+    div.lgInfoSection {
+      display: flex;
+    }
+    h4 {
+      display: block;
+    }
+  }
+}
+@media (min-width: $bp-lg) {
+  div.contentContainer {
+    margin-left: 40vw;
+    flex-grow: 1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    overflow-x: hidden;
+    width: 60vw !important;
+
+    div.infoText,
+    div.infoTextExtra {
+      display: flex;
+    }
+  }
+
+  div.infoText {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

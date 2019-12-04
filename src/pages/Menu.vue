@@ -8,8 +8,12 @@
         >
           <a href="#">All products</a>
         </li>
-        <li class="listItem"><a href="#">Previous</a></li>
-        <li class="listItem"><a href="#">Favorites</a></li>
+        <li class="listItem">
+          <a href="#">Previous</a>
+        </li>
+        <li class="listItem">
+          <a href="#">Favorites</a>
+        </li>
       </ul>
     </nav>
 

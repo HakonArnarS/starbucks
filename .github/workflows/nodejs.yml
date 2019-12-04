@@ -1,5 +1,5 @@
 name: Node CI
-
+# 3f1fb5501c356e79c185d0f483468f9b06132a7d
 on: [push]
 
 jobs:
@@ -20,8 +20,9 @@ jobs:
         run: |
           yarn add quasar
           yarn run build --if-present
-          yarn test
-          cp -r dist/pwa/* docs
+          git remote add origin https://HakonArnarS:${{ secrets.ACCESS_TOKEN }}@github.com/Hak
+onArnarS/starbucks.git
+          git subtree push --prefix dist origin gh-pages
           yarn test
         env:
           CI: true

@@ -2,13 +2,17 @@
 //Breakpoint @745px - UL, Find store & Buttons appear + Burger disappears
 
 header {
+  display: flex;
+  align-items: center;
+  max-height: 6rem;
   div.q-toolbar {
     padding: 0 1rem;
     justify-content: space-between;
+    align-items: center;
 
-    a {
+    svg {
       cursor: pointer !important;
-      height: 2rem;
+      height: auto;
       width: 2rem;
     }
     i {
@@ -116,5 +120,12 @@ nav.drawerContent {
     padding: 2rem 1rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 2px 0px,
       rgba(0, 0, 0, 0.12) 0px 4px 4px 0px;
+
+    div.q-toolbar {
+      svg {
+        width: 3rem;
+        height: auto;
+      }
+    }
   }
 }

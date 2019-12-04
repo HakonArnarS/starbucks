@@ -19,9 +19,9 @@
             next-icon="keyboard_arrow_right"
             arrows
             color="little-whiter"
-            class=" text-black shadow-1 rounded-borders flex-center"
+            class=" text-black shadow-1 rounded-borders flex-start q-pb-lg"
           >
-            <q-carousel-slide name="0" class="column no-wrap flex-center">
+            <q-carousel-slide :name="0" class="column no-wrap ">
               <q-img
                 :src="carousel[0].img"
                 spinner-color="white"
@@ -31,7 +31,7 @@
                 <span>{{ carousel[0].text }}</span>
               </div>
             </q-carousel-slide>
-            <q-carousel-slide name="1" class="column no-wrap flex-center">
+            <q-carousel-slide :name="1" class="column no-wrap flex-center">
               <q-img
                 :src="carousel[1].img"
                 spinner-color="white"
@@ -41,7 +41,7 @@
                 <span>{{ carousel[1].text }}</span>
               </div>
             </q-carousel-slide>
-            <q-carousel-slide name="2" class="column no-wrap flex-center">
+            <q-carousel-slide :name="2" class="column no-wrap flex-center">
               <q-img
                 :src="carousel[2].img"
                 spinner-color="white"
@@ -51,7 +51,7 @@
                 <span>{{ carousel[2].text }}</span>
               </div>
             </q-carousel-slide>
-            <q-carousel-slide name="3" class="column no-wrap flex-center">
+            <q-carousel-slide :name="3" class="column no-wrap flex-center">
               <q-img
                 :src="carousel[3].img"
                 spinner-color="white"
@@ -61,7 +61,7 @@
                 <span>{{ carousel[3].text }}</span>
               </div>
             </q-carousel-slide>
-            <q-carousel-slide name="4" class="column no-wrap flex-center">
+            <q-carousel-slide :name="4" class="column no-wrap flex-center">
               <q-img
                 :src="carousel[4].img"
                 spinner-color="white"
@@ -86,10 +86,7 @@
         <section class="news">
           <div class="cardsContainer">
             <q-card class="my-card">
-              <img
-                src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/digitalcontent.starbucks.com/udp/us/en/assets/SPOT-TWO1_tcm121-57275.jpg"
-                alt="hapy hour"
-              />
+              <img src="../statics/happyhour.jpg" alt="happy hour" />
 
               <q-card-section>
                 <div class="text-h5">On any handcrafted drink</div>

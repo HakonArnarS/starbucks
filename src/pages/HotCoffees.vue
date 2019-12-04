@@ -5,8 +5,12 @@
         <li class="listItem">
           <a href="#">All products</a>
         </li>
-        <li class="listItem"><a href="#">Previous</a></li>
-        <li class="listItem"><a href="#">Favorites</a></li>
+        <li class="listItem">
+          <a href="#">Previous</a>
+        </li>
+        <li class="listItem">
+          <a href="#">Favorites</a>
+        </li>
       </ul>
     </nav>
 
@@ -21,29 +25,29 @@
 
         <ul class="coffeesContainer row justify-center">
           <li class="listItem">
-            <a href="#">
+            <q-item to="/product" class="column items-center">
               <img
                 src="https://globalassets.starbucks.com/assets/f12bc8af498d45ed92c5d6f1dac64062.jpg?impolicy=1by1_tight_288"
                 alt="hot cup of coffee"
               />
               <h6>Caffè Americano</h6>
-            </a>
+            </q-item>
           </li>
           <li class="listItem">
-            <a href="#">
+            <q-item to="/product" class="column items-center">
               <img
                 src="https://globalassets.starbucks.com/assets/77da0026684947e0bfa8f5d6befc26fc.jpg"
                 alt="hot cup of coffee"
               />
               <h6>Starbucks® Blonde Caffè Americano</h6>
-            </a>
+            </q-item>
           </li>
         </ul>
       </section>
 
       <section class="category">
         <h3>Brewed Coffees</h3>
-        <ul class="coffeesContainer row ">
+        <ul class="coffeesContainer row">
           <li class="listItem">
             <a href="#">
               <img
@@ -175,7 +179,10 @@
                 alt="sad face"
               />
 
-              <h6>Sorry, nothing here...<strong>404</strong></h6>
+              <h6>
+                Sorry, nothing here...
+                <strong>404</strong>
+              </h6>
             </a>
           </li>
         </ul>
@@ -191,7 +198,10 @@
                 style="border-radius: inherit;"
                 alt="sad face"
               />
-              <h6>Sorry, nothing here...<strong>404</strong></h6>
+              <h6>
+                Sorry, nothing here...
+                <strong>404</strong>
+              </h6>
             </a>
           </li>
         </ul>
@@ -207,7 +217,10 @@
                 style="border-radius: inherit;"
                 alt="sad face"
               />
-              <h6>Sorry, nothing here...<strong>404</strong></h6>
+              <h6>
+                Sorry, nothing here...
+                <strong>404</strong>
+              </h6>
             </a>
           </li>
         </ul>
@@ -223,7 +236,10 @@
                 style="border-radius: inherit;"
                 alt="sad face"
               />
-              <h6>Sorry, nothing here...<strong>404</strong></h6>
+              <h6>
+                Sorry, nothing here...
+                <strong>404</strong>
+              </h6>
             </a>
           </li>
         </ul>

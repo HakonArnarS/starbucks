@@ -10,7 +10,8 @@ const routes = [
         path: "/drinks/hot-coffees",
         component: () => import("pages/HotCoffees.vue")
       },
-      { path: "/menu", component: () => import("pages/Menu.vue") }
+      { path: "/menu", component: () => import("pages/Menu.vue") },
+      { path: "/product", component: () => import("pages/Product.vue") }
     ]
   }
 ];

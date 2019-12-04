@@ -1,7 +1,7 @@
 // MENU NAVIGATION -> ALL PRODUCTS - PREVIOUS - FAVORITES
 nav {
-  width: 100vw;
-  border: 1px solid #d5d1c8;
+  width: 100%;
+  border-top: 1px solid #d5d1c8;
   border-bottom: 1px solid #d5d1c8;
   padding: 0.5rem 1rem 0;
 }
@@ -9,7 +9,7 @@ ul.subnav {
   display: flex;
   overflow-x: auto;
   overflow-y: hidden;
-  white-space: nowrap;
+  flex-wrap: nowrap;
   flex-shrink: 0;
   li {
     box-sizing: border-box;

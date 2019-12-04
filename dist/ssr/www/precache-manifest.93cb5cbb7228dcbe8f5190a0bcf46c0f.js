@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b65887f267d9799f5e93",
-    "url": "/css/app.b78ad273.css"
+    "revision": "0150a806784ba9aa05d9",
+    "url": "/css/app.7493c5ac.css"
   },
   {
     "revision": "5cb7edfceb233100075dc9a1e12e8da3",
@@ -36,6 +36,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.0509ab09.woff2"
   },
   {
+    "revision": "a65597457cc9cb5118393b4059774610",
+    "url": "/img/happyhour.a6559745.jpg"
+  },
+  {
     "revision": "38bb9e9305514eb5fa34",
     "url": "/js/280aa2ca.23cb811a.js"
   },
@@ -52,10 +56,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/2d0ccf5d.5aba0d47.js"
   },
   {
-    "revision": "a9f814622c29135ba0f2",
-    "url": "/js/2d0e8be2.dba2d60f.js"
-  },
-  {
     "revision": "eefd71e42eb61363a713",
     "url": "/js/830425fa.4c2d24f4.js"
   },
@@ -68,8 +68,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/a04e089a.e03ec149.js"
   },
   {
-    "revision": "b65887f267d9799f5e93",
-    "url": "/js/app.fe046b4c.js"
+    "revision": "0150a806784ba9aa05d9",
+    "url": "/js/app.3a6eff70.js"
+  },
+  {
+    "revision": "b088cca66a25e29551e2",
+    "url": "/js/f766676e.bcac86ee.js"
   },
   {
     "revision": "eb7b17e80a6b0f0b62e0",
@@ -90,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d0027f867e7ef17553fd250512f968f7",
     "url": "/statics/app-logo-128x128.png"
+  },
+  {
+    "revision": "a65597457cc9cb5118393b4059774610",
+    "url": "/statics/happyhour.jpg"
   },
   {
     "revision": "55e28ce248ff8544c2b792751c7bfef1",
