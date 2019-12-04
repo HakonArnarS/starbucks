@@ -17,15 +17,17 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: yarn install, build, and test
         run: |
-          yarn add quasar
-          yarn run build --if-present
-          yarn test
+          #yarn add quasar
+          #yarn run build --if-present
+          #yarn test
+          mkdir dist 
+          touch dist/index.html
       - name: publish to github pages
         run: |
-          npm install gh-pages -g
+          yarn global add gh-pages
           git config --global user.email "robot@example.com"
           git config --global user.name "Robo Cop"
-          git remote add pages https://HakonArnarS:${{ secrets.ACCESS_TOKEN }}@github.com/HakonArnarS/starbucks.git
+          git remote set-url origin https://HakonArnarS:${{ secrets.ACCESS_TOKEN }}@github.com/HakonArnarS/starbucks.git
           gh-pages -d dist/ssr -b gh-pages
         env:
           CI: true
