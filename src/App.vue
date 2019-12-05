@@ -37,7 +37,7 @@ export default {
     if (navigator) {
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function() {
-          navigator.serviceWorker.register("/service-worker.js");
+          navigator.serviceWorker.register("/starbucks/service-worker.js");
         });
       }
     }
