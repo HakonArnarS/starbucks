@@ -1,4 +1,4 @@
-importScripts("https://hakonarnars.github.io/starbucks/precache-manifest.5af3485dc8ac5d2e94a75cb171ebbabc.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("https://hakonarnars.github.io/starbucks/precache-manifest.607782181d204cd80c482b50ecca30f2.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 /*
  * This file (which will be your service worker)
@@ -77,4 +77,13 @@ self.addEventListener("fetch", evt => {
     //   })
   );
 });
+
+// workbox.core.setCacheNameDetails({ prefix: "site-static-v4" }); // check the prefix of your app cache and set this accordingly
+
+// workbox.core.skipWaiting();
+
+// workbox.core.clientsClaim();
+
+// self.__precacheManifest = [].concat(self.__precacheManifest || []);
+// workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 

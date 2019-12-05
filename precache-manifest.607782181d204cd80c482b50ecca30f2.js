@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1738118f5197081e9401",
-    "url": "https://hakonarnars.github.io/starbucks/css/app.833f6c58.css"
+    "revision": "811f490eed5fc28e9039",
+    "url": "https://hakonarnars.github.io/starbucks/css/app.6cf1410c.css"
   },
   {
     "revision": "5cb7edfceb233100075dc9a1e12e8da3",
@@ -40,48 +40,52 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://hakonarnars.github.io/starbucks/img/happyhour.a6559745.jpg"
   },
   {
-    "revision": "7288590f46d762a3b4a2f5023626f545",
+    "revision": "e0dd126242f08728a21a6c102231a3d1",
+    "url": "https://hakonarnars.github.io/starbucks/img/starbucks-96x96.e0dd1262.png"
+  },
+  {
+    "revision": "c911c5cabfede4b2a2e3213de3921a44",
     "url": "https://hakonarnars.github.io/starbucks/index.html"
   },
   {
-    "revision": "2d6b40025c18499af40a",
-    "url": "https://hakonarnars.github.io/starbucks/js/076faf7a.6632e487.js"
+    "revision": "7d0b7bdeb1c61e8e1ef4",
+    "url": "https://hakonarnars.github.io/starbucks/js/076faf7a.767b0fde.js"
   },
   {
-    "revision": "cbbb79020c2b9820712a",
-    "url": "https://hakonarnars.github.io/starbucks/js/280aa2ca.14b0268d.js"
+    "revision": "46f7a1c5c19107cd3b91",
+    "url": "https://hakonarnars.github.io/starbucks/js/280aa2ca.9fbe0f45.js"
   },
   {
-    "revision": "9ada85927dfb8479c1f8",
-    "url": "https://hakonarnars.github.io/starbucks/js/2d0ac1df.2091332b.js"
+    "revision": "ba8419bd44b7b06681b0",
+    "url": "https://hakonarnars.github.io/starbucks/js/2d0ac1df.8a4ac313.js"
   },
   {
-    "revision": "872edb705d6dc95e0137",
-    "url": "https://hakonarnars.github.io/starbucks/js/2d0b1f69.58e1bac1.js"
+    "revision": "df5e055a047d1da90b33",
+    "url": "https://hakonarnars.github.io/starbucks/js/2d0ccf5d.f8869216.js"
   },
   {
-    "revision": "3f64917c4d9e995bab94",
-    "url": "https://hakonarnars.github.io/starbucks/js/2d0ccf5d.c3ec3d28.js"
+    "revision": "2262ded3c036e6b77a9f",
+    "url": "https://hakonarnars.github.io/starbucks/js/3edd1b94.626caad5.js"
   },
   {
-    "revision": "b739071b783b708578ae",
-    "url": "https://hakonarnars.github.io/starbucks/js/7089f5c5.2e34eeda.js"
+    "revision": "14f52b179018ffc5ffee",
+    "url": "https://hakonarnars.github.io/starbucks/js/7089f5c5.e365daf9.js"
   },
   {
-    "revision": "f06bdf1656fc52f8c371",
-    "url": "https://hakonarnars.github.io/starbucks/js/830425fa.2589d56f.js"
+    "revision": "8c1f2d02a1f173c7f08c",
+    "url": "https://hakonarnars.github.io/starbucks/js/830425fa.e7ea6eff.js"
   },
   {
-    "revision": "47f9acbef4f625335ea1",
-    "url": "https://hakonarnars.github.io/starbucks/js/832c488c.7b8ccecc.js"
+    "revision": "f7eaaf0192ce004f66e6",
+    "url": "https://hakonarnars.github.io/starbucks/js/832c488c.eb7223ca.js"
   },
   {
-    "revision": "1738118f5197081e9401",
-    "url": "https://hakonarnars.github.io/starbucks/js/app.f04a2d09.js"
+    "revision": "811f490eed5fc28e9039",
+    "url": "https://hakonarnars.github.io/starbucks/js/app.acc05636.js"
   },
   {
-    "revision": "b088cca66a25e29551e2",
-    "url": "https://hakonarnars.github.io/starbucks/js/f766676e.bcac86ee.js"
+    "revision": "90b3a35ebfe782190f34",
+    "url": "https://hakonarnars.github.io/starbucks/js/f766676e.44a2424d.js"
   },
   {
     "revision": "eb7b17e80a6b0f0b62e0",
