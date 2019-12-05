@@ -7,7 +7,7 @@ importScripts("https://hakonarnars.github.io/starbucks/precache-manifest.6077821
  */
 
 //Nota staticCacheName fyrir cache versioning - breyta nafninu þegar cache-inu er breytt.
-const staticCacheName = "site-static-v4";
+const staticCacheName = "site-static-v2";
 const dynamicCacheName = "site-dynamic-v1";
 const assets = [
   "/",
