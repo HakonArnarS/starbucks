@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "811f490eed5fc28e9039",
+    "revision": "51d7c0db853026641373",
     "url": "https://hakonarnars.github.io/starbucks/css/app.6cf1410c.css"
   },
   {
@@ -44,7 +44,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://hakonarnars.github.io/starbucks/img/starbucks-96x96.e0dd1262.png"
   },
   {
-    "revision": "c911c5cabfede4b2a2e3213de3921a44",
+    "revision": "f5f53c40c7496bb9f2b0ee6745e9a0e2",
     "url": "https://hakonarnars.github.io/starbucks/index.html"
   },
   {
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://hakonarnars.github.io/starbucks/js/832c488c.eb7223ca.js"
   },
   {
-    "revision": "811f490eed5fc28e9039",
-    "url": "https://hakonarnars.github.io/starbucks/js/app.acc05636.js"
+    "revision": "51d7c0db853026641373",
+    "url": "https://hakonarnars.github.io/starbucks/js/app.d5623f57.js"
   },
   {
     "revision": "90b3a35ebfe782190f34",
